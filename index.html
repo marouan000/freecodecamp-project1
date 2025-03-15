@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style1.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Financial survey</title>
+  </head>
+  <body>
+    <fieldset class="field">
+      <section class="hp">
+        <h1 id="title" class="h1">Financial Survey Form</h1>
+        <p id="description">
+          This is a survey form to analyse tour financial habits and spending
+          patterns
+        </p>
+      </section>
+      <br />
+      <section>
+        <form id="survey-form">
+          <div>
+            <label for="name" id="name-label">Enter your name:</label
+            ><input class="inp" type="text" id="name" placeholder="adam smith" required />
+            <label for="email" id="email-label"
+              >Enter your email:<input
+              class="inp"
+                type="email"
+                id="email"
+                placeholder="something@gmail.com"
+                required
+            /></label>
+            <label for="number" id="number-label"
+              >Enter your age:<input
+                class="inp"
+                type="number"
+                id="number"
+                min="0"
+                max="120"
+                placeholder="18"
+                required
+            /></label>
+            <label for="income">What's your income source?</label>
+          </div>
+          <select name="income" id="income">
+            <option value="employement">Employement</option>
+            <option value="self-employed">Self Employement</option>
+            <option value="freelancing">Freelancing</option>
+            <option value="investment">investment</option>
+            <option value="no-income">No income</option>
+          </select>
+          <p>How do you feel about your current spending habits?</p>
+          <label for="very-good"
+            ><input
+              type="radio"
+              name="spendings"
+              id="very-good"
+              value="very-good"
+            />Very Good</label
+          >
+          <br />
+          <label for="good"
+            ><input
+              type="radio"
+              name="spendings"
+              id="good"
+              value="good"
+            />Good</label
+          ><br />
+          <label for="average"
+            ><input
+              type="radio"
+              name="spendings"
+              id="average"
+              value="average"
+            />Average</label
+          ><br />
+          <label for="bad"
+            ><input
+              type="radio"
+              name="spendings"
+              id="bad"
+              value="bad"
+            />bad</label
+          ><br />
+          <label for="very-bad"
+            ><input
+              type="radio"
+              name="spendings"
+              id="very-bad"
+              value="very-bad"
+            />very-bad</label
+          >
+
+          <p>which financial challenges do you face?</p>
+          <label for="1"
+            ><input
+              type="checkbox"
+              name=""
+              id="1"
+              value="Overspending"
+            />Overspending</label
+          ><br />
+          <label for="2"
+            ><input
+              type="checkbox"
+              name=""
+              id="2"
+              value="Lack of savings"
+            />Lack of savings</label
+          ><br />
+          <label for="3"
+            ><input
+              type="checkbox"
+              name=""
+              id="3"
+              value="Debt management"
+            />Debt management</label
+          ><br />
+          <label for="4"
+            ><input
+              type="checkbox"
+              name=""
+              id="4"
+              value="Investment knowledge"
+            />Investment knowledge</label
+          ><br />
+          <label for="5"
+            ><input
+              type="checkbox"
+              name=""
+              id="5"
+              value="Budgeting"
+            />Budgeting</label
+          >
+          <div>
+            <label for="msg"
+              >Any additional comments on your financial habits?</label
+            ><textarea name="msg" id="msg"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </fieldset>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  font-size: 25px;
+  background: url(pexels-pixabay-210607.jpg), rgba(0, 100, 0, 0.8);
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+div label,
+div input {
+  display: block;
+}
+.field {
+  margin: auto;
+  width: 750px;
+  background-color: rgba(1, 50, 32, 0.96);
+  border: none;
+  border-radius: 10px;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+  
+
+}
+#title {
+    /* text-align: center;  */
+    font-size: 62px;
+    color: #FFB266;
+    text-align: center;
+    
+    
+}
+#description {
+    text-align: center; 
+    font-size: 25px; color: #FFB266;
+}
+.hp {
+  background-color: #1A1A1A;
+  padding: 20px;
+  width: 750px;
+  border-radius: 20px;
+  
+  
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;  */
+}
+/* input,
+select,
+textarea {
+    /* margin: 12px; */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+
+.inp,
+textarea {
+    margin-top: 7px;
+    margin-bottom: 18px;
+    width: 600px;
+    height: 32px;
+    border-radius: 7px;
+}
+
+select {
+  margin-top: 10px;
+  /* width: 80%; */
+  width: 600px;
+  height: 38px;
+  /* margin: 12px; */
+  border-radius: 10px;
+}
+textarea {
+  height: 90px;
+}
+button {
+    width: 200px; height: 48px;
+    font-size: 23px;
+    text-align: center;
+    display: block; 
+    
+}
+#survey-form {
+  margin: 25px;
+}

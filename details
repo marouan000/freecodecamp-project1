@@ -1,0 +1,27 @@
+"""code structure:"""
+
+Name:
+
+A simple text input to collect the user's name.
+Email:
+
+An email input to get their email address.
+Age:
+
+A number input to gather the user's age.
+Spending Habits:
+
+A radio question asking how they feel about their current spending habits with options like "Very Good", "Good", "Average", "Bad", "Very Bad."
+Income Source:
+
+A dropdown (select) asking about their primary source of income. Options: "Employment", "Self-Employed", "Freelancing", "Investments", "No Income."
+Financial Challenges:
+
+A checkbox question to identify which financial challenges they face: "Overspending", "Lack of Savings", "Debt Management", "Investment Knowledge", "Budgeting."
+Additional Comments:
+
+A text area for them to share any additional thoughts or comments on their financial habits.
+Submit Button:
+
+A button to submit the completed form.
+'(-)
