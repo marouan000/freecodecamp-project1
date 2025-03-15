@@ -1,2 +1,2 @@
-# freecodecamp-project1
+# freecodecamp responsive-design course project1
  
